@@ -10,7 +10,7 @@ private:
 
 public:
 	//constructor
-	BasicShape(double = 0.0, string = ""); //is area not initiated here???????
+	BasicShape(string = ""); //is area not initiated here???????
 
 	//Getters
 	double getArea() const { return area; }
@@ -24,6 +24,6 @@ public:
 	virtual void calcArea() = 0;
 
 	// Virtual destructor 
-	virtual ~BasicShape() = default
+	virtual ~BasicShape() = default;
 
 };

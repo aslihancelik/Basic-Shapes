@@ -1,8 +1,9 @@
 #include "BasicShape.h"
 
 
-BasicShape::BasicShape(double area= 0.0, string name= ""){
+BasicShape::BasicShape(string name){
 	setName(name);
+	setArea(0.0);
 }
 
 void BasicShape::setName(string name){

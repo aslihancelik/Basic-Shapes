@@ -1,7 +1,7 @@
 #include "Rectangle.h"
 
 //constructor
-Rectangle::Rectangle(double l, double w, string n = "Rectangle") {
+Rectangle::Rectangle(double l, double w, string n) {
 	setName(n);
 	calcArea();
 }
