@@ -9,3 +9,7 @@ void BasicShape::setName(string name){
 	this->name = name;
 
 }
+
+void BasicShape::setArea(double area) {
+
+}

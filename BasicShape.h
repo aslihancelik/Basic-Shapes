@@ -17,6 +17,9 @@ public:
 
 	//Setters
 	void setName(string);
+
+	void setArea(double);
+
 	//pure virtual function
 
 	//static calcArea
