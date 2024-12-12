@@ -16,4 +16,7 @@ public:
 	//getter
 	double getSide() const { return side; }
 
+
+	//calcarea from base class?
+
 };
