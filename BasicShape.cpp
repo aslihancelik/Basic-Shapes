@@ -11,5 +11,5 @@ void BasicShape::setName(string name){
 }
 
 void BasicShape::setArea(double area) {
-
+	this->area = area;
 }

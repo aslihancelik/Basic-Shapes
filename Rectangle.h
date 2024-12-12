@@ -13,5 +13,12 @@ public:
 	//constructor
 	Rectangle(double, double, string = "Rectangle");
 
-	//overriding the pure virtual function
+	//override the pure virtual function from BasicShape
+	void calcArea() override;
+
+	//getters
+
+	double getLength() const { return length; }
+	double getWidth() const { return width; }
+
 };
