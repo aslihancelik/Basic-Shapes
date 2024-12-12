@@ -21,6 +21,7 @@ public:
 	void setArea(double);
 
 	//pure virtual function
+	virtual void = 0;
 
 	//static calcArea
 

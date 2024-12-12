@@ -18,4 +18,8 @@ public:
 	//then calls the base class setArea function to store the area in the base class instance variable
 	double calcArea();
 
+	//getters
+
+	double getRadius(); //const nereye
+
 };
