@@ -16,10 +16,12 @@ public:
 
 	//calculates the area of the circle
 	//then calls the base class setArea function to store the area in the base class instance variable
-	double calcArea();
+	void calcArea() override;
 
 	//getters
 
-	double getRadius(); //const nereye
+	double getXCenter() const { return xCenter; }
+	double getYCenter() const { return yCenter; }
+	double getRadius() const { return radius; }
 
 };
