@@ -11,10 +11,10 @@ using namespace std;
 
 int main() {
     // Create objects
-    Circle c1(0.0, 0.0, 5.0, "First Circle");
+    Circle c1(1.0, 0.0, 6.0, "First Circle");
     Circle c2(2.0, 2.0, 7.0, "Second Circle");
-    Rectangle r1(4.0, 5.0, "First Rectangle");
-    Rectangle r2(3.0, 6.0, "Second Rectangle");
+    Rectangle r1(4.0, 5.2, "First Rectangle");
+    Rectangle r2(3.0, 9.0, "Second Rectangle");
     Square s1(4.0, "First Square");
 
     // Store them in an array of BasicShape pointers
