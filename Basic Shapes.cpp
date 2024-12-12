@@ -1,5 +1,8 @@
 // Basic Shapes.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// 
+// This program creates various shape objects, stores them in a container, and displays their names and areas.
 //
+// Programmer: Aslihan Aria Celik
 
 #include <iostream>
 #include <vector>
@@ -17,9 +20,10 @@ int main() {
     Rectangle r2(3.0, 9.0, "Second Rectangle");
     Square s1(4.0, "First Square");
 
-    // Store them in an array of BasicShape pointers
+    // Store the objects above in an array of BasicShape pointers
     vector<BasicShape*> shapes = { &c1, &c2, &r1, &r2, &s1 };
 
+    //for formatting the output
     cout << fixed << setprecision(2);
 
     // Display each shape's name and area
