@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <iomanip>
 #include "Circle.h"
 #include "Rectangle.h"
 #include "Square.h"
@@ -17,7 +18,9 @@ int main() {
     Square s1(4.0, "First Square");
 
     // Store them in an array of BasicShape pointers
-    std::vector<BasicShape*> shapes = { &c1, &c2, &r1, &r2, &s1 };
+    vector<BasicShape*> shapes = { &c1, &c2, &r1, &r2, &s1 };
+
+    cout << fixed << setprecision(2);
 
     // Display each shape's name and area
     for (BasicShape* shape : shapes) {

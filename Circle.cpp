@@ -6,7 +6,7 @@
 	#define PI 3.14159265358979323846
 #endif
 
-Circle::Circle(double x, double y, double r, string n):BasicShape(n){ //do we need basic shape here???
+Circle::Circle(double x, double y, double r, string n):BasicShape(n), xCenter(x), yCenter(y), radius(r) { //do we need basic shape here??? :BasicShape(n)
 
 	setName(n);
 	calcArea();
